@@ -2,7 +2,8 @@
 
 > Game "Dad Jokes" on Vanilla JS
 
-### [Demo]()
+### [Demo](http://dad-jokes-ab.surge.sh)
+[![IMAGE ALT TEXT HERE](./uploads/screen.png)](https://skr.sh/v5edH2Z2ZdC?a)
 
 ### Get started
 
