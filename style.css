@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background: url("./img/bg.png") repeat;
+  font-family: 'Architects Daughter', cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,4 +14,60 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #d6e3d4;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 6px 6px rgba(0, 0, 0, .1);
+  padding: 50px 20px;
+  text-align: center;
+  min-width: 100%;
+  width: 800px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: inherit;
+  font-weight: bold;
+  background-color: #9f68e0;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 6px 6px rgba(0, 0, 0, .1);
+  text-shadow: 0 0 3px rgba(0, 0, 0, .8);
+  padding: 14px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(.85);
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+h3 {
+  margin: 0;
+  opacity: .5;
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+
+.joke {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  min-width: 600px;
 }
